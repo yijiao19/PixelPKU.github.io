@@ -1,0 +1,197 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body{
+  font-family:微软雅黑;
+  margin: 0;
+  background: #eee;
+  overflow: auto;
+}
+div{
+  display: block;
+}
+div.content{
+  margin:20px 40px;
+}
+nav{
+  background: #333;
+  width: 100%;
+  height: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+nav a{
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+.nav_list{
+  float: right;
+  margin-right: 50px;
+}
+.nav_list li{
+  display: inline-block;
+  margin-right: 10px;
+  color: #000;
+}
+.nav_list li a:link{
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.5em;
+}
+.nav_list li a:visited{
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.5em;
+}
+
+.nav_list li a:hover{
+  color: #888;
+  text-decoration: none;
+  font-size: 0.5em;
+}
+
+article{
+  margin-bottom: 20px;
+  padding: 25px 20px 25px 20px;
+  border-style: solid;
+  border-color: #bbb #999 #999 #bbb;
+  border-width: 1px 2px 2px 1px;
+  background: #fff;
+  width: 100%;
+}
+
+h1{
+  font-size: 1.3em;
+}
+h2{
+  font-size: 0.9em;
+  color: #888;
+}
+p.author_time{
+  font-size: 0.5em;
+  color: #999;
+  text-indent: 0;
+}
+p{
+  font-size: 0.9em;
+  color: #000;
+  text-indent: 2em;
+}
+#article_list{
+  list-style-type: none;
+}
+article.img_article{
+  overflow: auto;
+}
+div.img{
+  float: left;
+  margin:15px;
+  margin-left: 2em;
+  padding: 10px;
+  border:1px solid #bebebe;
+  height:auto;
+  width:auto;
+  text-align:center;
+}
+div.img img{
+  display:inline;
+  width: 190px;
+  height: 125px;
+  margin-top: 5%;
+}
+div.desc{
+    font-size: 0.5em;
+}
+#demo-table {
+  width: 100%;
+  background-color: #fff;
+  border-collapse: collapse;
+  empty-cells: show;
+  border: 1px solid #888;
+  font-size: 0.6em;
+}
+#demo-table th{
+  font-weight: bold;
+  background-color: #111;
+  color: #fff;
+  text-align: left;
+
+}
+
+#demo-table th,
+#demo-table td{
+    border: 1px solid #ccc;
+    padding: 3px;
+    padding-left: 4px;
+}
+#demo-table td.second_td {
+  border-bottom: 3px #000;
+}
+#demo-table tfoot{
+  background-color: #ccc;
+  color: #000;
+  font-weight: bold;
+}
+div.main_div{
+  margin-right: 380px;
+}
+div.side_div{
+  width: 350px;
+  float: right;
+}
+form {
+    display: block;
+    margin-top: 0em;
+    font-size: 0.5em;
+}
+h2.side{
+  text-align: left;
+  border-left: 3px solid #ccc;
+  padding: 10px;
+  color: #000;
+  font-weight: bold;
+  font-size: 1.0em;
+}
+div.form{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+div.input_title {
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: right;
+  margin-right: 10px;
+  font-size: 0.8em;
+}
+div.input_tip{
+  color: #888;
+  font-size: 0.6em;
+  margin-left: 40%;
+  padding-left: 15px;
+}
+aside button{
+  background: rgb(28, 99, 221);
+  line-height: 3em;
+  border-radius: 5px;
+  border: 0;
+  outline: none;
+  color: #fff;
+  width: 100%;
+}
+
+footer{
+  float: left;
+  text-align: center;
+  background-color: #000;
+  width: 100%;
+  height: 60px;
+}
+footer p{
+  padding-top: 10px;
+  color: #fff;
+  font-size: 0.5em;
+  text-indent: 0;
+}
