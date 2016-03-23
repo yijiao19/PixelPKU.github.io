@@ -42,3 +42,8 @@ article {
 	margin: 20px 20px 10px 10px;
 	box-shadow: 2px 2px 2px #999999;
 }
+
+footer {
+	width: 100%;
+	text-align: center;
+}
