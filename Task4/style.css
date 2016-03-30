@@ -1,0 +1,25 @@
+.center{
+  position: absolute;
+  background: #ccc;
+  width: 400px;
+  height: 200px;
+  top :50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -200px;
+}
+.left_circle{
+  background: #fc0;
+  width: 50px;
+  height: 50px;
+  border-radius: 0 0 100% 0;
+}
+.right_circle{
+  background: #fc0;
+  width: 50px;
+  height: 50px;
+  border-radius: 100% 0 0 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
